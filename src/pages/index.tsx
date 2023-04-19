@@ -7,7 +7,7 @@ const Page: NextPage = () => {
     <Center height="100vh">
       <Stack spacing={8}>
         <Heading as="h1" size="4xl" textAlign="center" mb={12}>
-          Let's chat！
+          Play chat！
         </Heading>
         <Center>
           <Link href={'/chat'} passHref>
