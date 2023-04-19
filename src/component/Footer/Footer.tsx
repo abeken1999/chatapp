@@ -1,4 +1,4 @@
-import { chakra, Container, Flex, Link, Box, Center } from '@chakra-ui/react'
+import { chakra, Container, Flex, Link } from '@chakra-ui/react'
 import { Navigate } from '@/component/Navigate/Navigate'
 
 export const Footer = () => {
