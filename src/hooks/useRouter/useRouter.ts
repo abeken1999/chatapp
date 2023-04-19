@@ -7,7 +7,7 @@ export const useRouter = () => {
   const nextRouter = useNextRouter()
 
   const push = useCallback(
-    (url: UrlObject | ((path: PagePath) => UrlObject)) => {
+    (url: UrlObject | ((path: PagesPath) => UrlObject)) => {
       return nextRouter.push(typeof url === 'function' ? url(pagesPath) : url)
     },
     [nextRouter]
