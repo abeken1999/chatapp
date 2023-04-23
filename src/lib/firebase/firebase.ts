@@ -18,5 +18,6 @@ export const firebaseConfig = {
 }
 
 export const app = initializeApp(firebaseConfig)
+export default app
 export const initializeFirebaseApp = () =>
   !getApps().length ? initializeApp(firebaseConfig) : getApp()
